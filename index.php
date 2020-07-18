@@ -13,7 +13,7 @@ include 'header.php';
 </div>
 
 <div class="sub-hero">
-    <div>a</div>
+    <div>item a</div>
     <div>b</div>
     <div>c</div>
 </div>
