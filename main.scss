@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.username,
+.password,
+#email {
+    padding: 6px;
+
+    border: {
+        top: none;
+        left: none;
+        right: none;
+    }
+
+    font: {}
+}
+
+#login,
+#register {
+    background: rgba(96, 96, 226, 0.541);
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+
+    &:hover {
+        background: rgb(96, 96, 226)
+    }
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(96, 96, 226, 0.541);
+    color: white;
+
+    padding: {
+        top: 10px;
+        bottom: 10px;
+    }
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: center;
+    margin: 1px;
+
+
+    padding: {
+        top: 10px;
+        bottom: 10px;
+    }
+
+    button {
+        background: rgba(96, 96, 226, 0.541);
+        color: #fff;
+        padding: 8px 12px;
+        border: none;
+
+        &:hover {
+            background: rgb(96, 96, 226)
+        }
+
+    }
+
+    div {
+        justify-self: end;
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+        justify-self: center;
+
+        li {
+            padding: 8px 12px;
+
+            a {
+                text-decoration: none;
+                color: black;
+
+                &:hover {
+                    color: blue;
+                }
+            }
+        }
+    }
+}
+
+.hero {
+    min-height: 60vh;
+    border: 1px solid red;
+    background-color: cornflowerblue;
+    display: flex;
+}
+
+.sub-hero {
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 40vh;
+
+    div {
+        border: 1px solid black;
+        width: 100%;
+    }
+
+}
+
+body {
+    max-width: 1000px;
+    margin: auto;
+}
+
+#register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#login-form {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        min-width: 80%;
+    }
+
+    input {
+        margin: 10px;
+    }
+
+    i {
+        font-size: 16vh;
+
+        color: rgba(96, 96, 226, 0.541);
+
+        padding: {
+            top: 20px;
+            bottom: 20px;
+        }
+    }
+
+}
+
+.error-msg {
+    text-align: center;
+    color: red;
+}
