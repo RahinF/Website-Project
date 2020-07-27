@@ -1,8 +1,6 @@
 <?php
 include 'condb.php';
 
-
-
 if (!empty($_POST)){
 // error when a field is empty
 if (!isset($_POST['username'], $_POST['password'])){

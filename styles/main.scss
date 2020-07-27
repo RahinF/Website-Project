@@ -1,3 +1,6 @@
+@import "nav";
+@import "footer";
+
 * {
     margin: 0;
     padding: 0;
@@ -32,72 +35,12 @@
 }
 
 
-footer {
-    display: flex;
-    justify-content: space-evenly;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background: rgba(96, 96, 226, 0.541);
-    color: white;
-
-    padding: {
-        top: 10px;
-        bottom: 10px;
-    }
-}
-
-nav {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    align-items: center;
-    margin: 1px;
 
 
-    padding: {
-        top: 10px;
-        bottom: 10px;
-    }
 
-    button {
-        background: rgba(96, 96, 226, 0.541);
-        color: #fff;
-        padding: 8px 12px;
-        border: none;
-
-        &:hover {
-            background: rgb(96, 96, 226)
-        }
-
-    }
-
-    div {
-        justify-self: end;
-    }
-
-    ul {
-        display: flex;
-        list-style: none;
-        justify-self: center;
-
-        li {
-            padding: 8px 12px;
-
-            a {
-                text-decoration: none;
-                color: black;
-
-                &:hover {
-                    color: blue;
-                }
-            }
-        }
-    }
-}
 
 .hero {
-    min-height: 60vh;
+    min-height: 100vh;
     border: 1px solid red;
     background-color: cornflowerblue;
     display: flex;
@@ -115,10 +58,7 @@ nav {
 
 }
 
-body {
-    max-width: 1000px;
-    margin: auto;
-}
+
 
 #register-form {
     display: flex;

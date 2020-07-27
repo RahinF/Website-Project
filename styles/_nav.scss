@@ -1,0 +1,50 @@
+nav {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: center;
+    margin: 1px;
+
+
+    padding: {
+        top: 10px;
+        left: 10px;
+        right: 10px;
+        bottom: 10px;
+    }
+
+    button {
+        background: rgb(96, 96, 226);
+        color: #fff;
+        padding: 8px 12px;
+        border: none;
+        border-radius: 10%;
+
+        &:hover {
+            background: rgb(59, 59, 216)
+        }
+
+    }
+
+    div {
+        justify-self: end;
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+        justify-self: center;
+
+        li {
+            padding: 8px 12px;
+
+            a {
+                text-decoration: none;
+                color: black;
+
+                &:hover {
+                    color: blue;
+                }
+            }
+        }
+    }
+}

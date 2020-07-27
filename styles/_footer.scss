@@ -1,0 +1,21 @@
+footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-evenly;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(96, 96, 226, 1);
+    color: white;
+
+    padding: {
+        top: 10px;
+        bottom: 10px;
+    }
+}
+
+.footer-media {
+    display: flex;
+    justify-content: space-evenly;
+}
